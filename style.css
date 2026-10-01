@@ -1,0 +1,114 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+body {
+    background-color: #f8f9fa;
+    color: #1c1c1e;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Hero Section */
+.hero {
+    background: linear-gradient(135deg, #007aff, #5856d6);
+    color: white;
+    padding: 60px 0;
+    text-align: center;
+}
+
+.hero h1 { font-size: 2.5rem; margin-bottom: 10px; }
+.hero h2 { font-size: 1.3rem; font-weight: 400; opacity: 0.9; }
+.hero p { margin-top: 10px; opacity: 0.8; }
+
+.hero-links {
+    margin-top: 25px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 5px;
+    background: white;
+    color: #007aff;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: 600;
+    transition: 0.2s;
+}
+
+.btn:hover { background: #e5e5ea; }
+.btn-alt { background: transparent; color: white; border: 2px solid white; }
+.btn-alt:hover { background: rgba(255, 255, 255, 0.2); }
+
+/* Sections */
+.section { margin: 40px auto; }
+.section h3 {
+    font-size: 1.5rem;
+    border-bottom: 2px solid #e5e5ea;
+    padding-bottom: 8px;
+    margin-bottom: 20px;
+}
+
+/* Skills */
+.skills-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.skill-tag {
+    background: #e5e5ea;
+    padding: 8px 16px;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+/* Projects */
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+}
+
+.project-card {
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    border: 1px solid #e5e5ea;
+}
+
+.project-card h4 { font-size: 1.2rem; color: #007aff; margin-bottom: 10px; }
+.project-card p { font-size: 0.95rem; color: #3a3a3c; margin-bottom: 15px; }
+
+.tags span {
+    font-size: 0.75rem;
+    background: #f2f2f7;
+    color: #8e8e93;
+    padding: 4px 8px;
+    border-radius: 4px;
+    margin-right: 5px;
+}
+
+.project-links { margin-top: 15px; }
+.project-links a { color: #007aff; text-decoration: none; font-weight: 600; font-size: 0.9rem; }
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    color: #8e8e93;
+    font-size: 0.85rem;
+    margin-top: 40px;
+}
